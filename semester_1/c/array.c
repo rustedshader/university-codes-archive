@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-// int main(){
-//     // int marks[4] = {10,20,30,40};
-//     // float length[5] = {20.4,10.8,15.0};
-//     // char ch[4] = {'h','e','l','l','o'};
-//     int marks[] = {80,44,68,45,90,98};
-//     for (int i =0 ; i<=3 ; i++){
-//         printf("%d\n",marks[i]);
-//     }
+ int main(){
+//      int marks[4] = {10,20,30,40};
+//      float length[5] = {20.4,10.8,15.0};
+//      char ch[4] = {'h','e','l','l','o'};
+
+     int marks[] = {80,44,68,45,90,98};
+     for (int i =0 ; i<=3 ; i++){
+         printf("%d\n",marks[i]);
+     }
 
 
-// }
+ }
 
 // int main(){
 //     int array[5];
