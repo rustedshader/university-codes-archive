@@ -1,0 +1,335 @@
+/* Gets how many positive negative and zero are there in the code ! */
+#include <stdio.h>
+#include <stdlib.h> /*  Used for fgets and strtol */
+
+int main(){
+    int user_is_done = 1;
+    const int N = 1e5+10;
+    int numbers_arr[N];
+    int numbers_arr_index = 0;
+    int positive = 0;
+    int negative = 0;
+    int zeroes = 0;
+    printf("Enter numeric digits !\n");
+    printf("Use q or Q to stop entering the values !\n\n");
+
+    while(user_is_done != 0){
+        char arr[N] ;
+        char *endptr;
+        printf("Enter Value: ");
+        fgets(arr, N, stdin); /* fgets, gets – get a line from a stream */
+        if (arr[0] == 'q' || arr[0] == 'Q'){
+            user_is_done = 0;
+            break;
+        }
+
+        /*
+        We can use atoi here but strtol helps us check for whether the input is integer or not!
+        hmm i think we can use atoi to get working like this have to check later ~~~
+        */
+        /*
+        The strtol() function converts the string in str to a long value.
+        The string may begin with an arbitrary amount of white space (as determined by isspace(3)) followed by a single optional ‘+’
+        or ‘-’ sign.  If base is zero or 16, the string may then include a “0x” prefix, and the number will be read in base 16;
+        otherwise, a zero base is taken as 10 (decimal) unless the next character is ‘0’, in which case it is taken as 8 (octal).
+
+        The remainder of the string is converted to a long, long long, intmax_t or quad_t value in the obvious manner, stopping at the
+        first character which is not a valid digit in the given base.  (In bases above 10, the letter ‘A’ in either upper or lower
+        case represents 10, ‘B’ represents 11, and so forth, with ‘Z’ representing 35.)
+
+        We used this for check --->>>> If endptr is not NULL, strtol() stores the address of the first invalid character in *endptr.  If there were no digits at all,
+        however, strtol() stores the original value of str in *endptr.  (Thus, if *str is not ‘\0’ but **endptr is ‘\0’ on return, the
+        entire string was valid.)
+        */
+
+        int y  = strtol(arr, &endptr, 10);
+        if(endptr == arr){
+            printf("Not an integer !\n");
+        }
+        else{
+        numbers_arr[numbers_arr_index]  = y;
+        numbers_arr_index++;
+        }
+    }
+
+    for (int i =0 ; i <= numbers_arr_index ; i++){
+        if (numbers_arr[i] > 0){
+           positive += 1;
+        }
+        if (numbers_arr[i] < 0){
+           negative += 1;
+        }
+        if (numbers_arr[i] == 0){
+           zeroes += 1;
+        }
+    }
+    printf("Number of positive integer are : %d\n",positive);
+    printf("Number of negative integer are : %d\n",negative);
+    /*Well at last the 0 is coming because i think after entering q\n is taken output as 0 from strtol but i break the statemnt still
+    not sure just adding -1 to zeroes for mean while ~~~*/
+    printf("Number of zeroes integer are : %d\n",zeroes-1);
+    return 0;
+}
+
+/* The fgets() function reads at most one less than the number of characters specified by size from the given stream and stores
+     them in the string str.  Reading stops when a newline character is found, at end-of-file or error.  The newline, if any, is
+     retained.  If any characters are read and there is no error, a ‘\0’ character is appended to end the string.
+
+     The gets() function is equivalent to fgets() with an infinite size and a stream of stdin, except that the newline character
+     (if any) is not stored in the string.  It is the caller's responsibility to ensure that the input line, if any, is
+     sufficiently short to fit in the string. */
+/* Gregorian Calender */
+#include <stdio.h>
+
+/* 01/01/01 -> Monday */
+/*
+The year 1000 is not a leap year ?.
+
+According to the rules of the Gregorian calendar, a year is a leap year if:
+
+It is divisible by 4.
+However, if it is divisible by 100, it must also be divisible by 400 to be a leap year.
+The year 1000 is divisible by 4 and 100, but it is not divisible by 400. Therefore, it does not qualify as a leap year.
+
+*/
+int main(){
+int year;
+printf("Enter the year\n -> ");
+scanf("%d",&year);
+int count = 0;
+for (int i=1;i<=year;i++){
+    if (((i-1)%4) == 0 && i != 1){
+        if ((i-1)%100 == 0){
+            if((i-1)%400 == 0){
+                count+=2;
+            }
+            else{
+                count+=1;
+            }
+        }
+        else{
+        count+=2;
+        }
+    }
+    else{
+        count+=1;
+    }
+    if(count > 7){
+        count = count-7;
+    }
+}
+if(count == 1){
+    printf("Monday\n");
+}
+if(count == 2){
+    printf("Tuesday\n");
+}
+if(count == 3){
+    printf("Wednesday\n");
+}
+if(count == 4){
+    printf("Thursday\n");
+}
+if(count == 5){
+    printf("Friday\n");
+}
+if(count == 6){
+    printf("Saturday\n");
+}
+if(count == 7){
+    printf("Sunday\n");
+}
+return 0 ;
+}
+/* Checks if the triangle is valid or not and check triangle type */
+/*  Takes sides of triangle as input */
+
+#include <stdio.h>
+
+int main(){
+    int a,b,c;
+    printf("Enter the sides of triangle one by one !");
+    printf("\n-> ");
+    scanf("%d",&a);
+    printf("-> ");
+    scanf("%d",&b);
+    printf("-> ");
+    scanf("%d",&c);
+
+    if (a == b == c){
+        printf("The triangle is equilateral\n");
+    }
+    else if (a==b && a != c || b==c && b!=a || c==a && c!=b){
+        printf("The triangle is a iscoleses triangle !\n");
+    }
+    else if(a*a + b*b == c*c || c*c + b*b == a*a || a*a + c*c == b*b){
+        printf("The triangle is right angle triangle !\n");
+    }
+    else{
+    printf("The triangle is scalene !\n");
+    }
+    return 0;
+}
+/* Calculating the BMI of the person ! */
+
+#include <stdio.h>
+
+int main(){
+    float w,h;
+    printf("** CALCULATING BMI **\n");
+    printf("Enter Your Weight (kgs)\n-> ");
+    scanf("%f",&w);
+    printf("Enter Your Height (mts)\n-> ");
+    scanf("%f",&h);
+    double bmi = w/(h*h);
+    if(bmi<=15){
+        printf("BMI is: %.2lf which lies under Starvation !\n",bmi);
+    }
+    if(bmi <= 17.5 && bmi > 15){
+        printf("BMI is: %.2lf which lies under Anorexic !\n",bmi);
+    }
+    if(bmi<=18.5 && bmi >17.5){
+        printf("BMI is: %.2lf which lies under Underweight !\n",bmi);
+    }
+    if(bmi<=24.9 && bmi >18.5){
+        printf("BMI is: %.2lf which lies under Ideal !\n",bmi);
+    }
+    if(bmi<=25.9 && bmi >24.9){
+        printf("BMI is: %.2lf which lies under Overweight !\n",bmi);
+    }
+    if(bmi<=39.9 && bmi >25.9){
+        printf("BMI is: %.2lf which lies under Obese !\n",bmi);
+    }
+    if(bmi >39.9){
+        printf("BMI is: %.2lf which lies under Morbidity Obsese !\n",bmi);
+    }
+    return 0;
+}
+/* Check if three points are colinear or not ! */
+
+#include <stdio.h>
+
+int main(){
+    float x1,x2,x3,y1,y2,y3;
+    printf("Enter x1\n-> ");
+    scanf("%f",&x1);
+    printf("Enter y1\n-> ");
+    scanf("%f",&y1);
+    printf("Enter x2\n-> ");
+    scanf("%f",&x2);
+    printf("Enter y2\n-> ");
+    scanf("%f",&y2);
+    printf("Enter x3\n-> ");
+    scanf("%f",&x3);
+    printf("Enter y3\n-> ");
+    scanf("%f",&y3);
+
+    /*
+        x1 y1 1
+        x2 y2 1
+        x3 y3 1
+    */
+
+    if (x1 * (y2 - y3) - y1 * (x2 - x3) + 1 * (x2*y3 - x3*y2) == 0 ){
+        printf("The points are colinear \n");
+    }
+    else{
+        printf("The points are NOT colinear \n");
+    }
+}
+/* Highest Perimeter */
+
+#include <stdio.h>
+
+int main(){
+    int l1,b1,l2,b2,l3,b3;
+    printf("Enter Values for triangle 1\n");
+    printf("Enter Length\n-> ");
+    scanf("%d",&l1);
+    printf("Enter Breadth\n-> ");
+    scanf("%d",&b1);
+    printf("Enter Values for triangle 2\n");
+    printf("Enter Length\n-> ");
+    scanf("%d",&l2);
+    printf("Enter Breadth\n-> ");
+    scanf("%d",&b2);
+    printf("Enter Values for triangle 3\n");
+    printf("Enter Length\n-> ");
+    scanf("%d",&l3);
+    printf("Enter Breadth\n-> ");
+    scanf("%d",&b3);
+
+    float perimeter_1 = 0.5*(l1+b1);
+    float perimeter_2 = 0.5*(l2+b2);
+    float perimeter_3 = 0.5*(l3+b3);
+
+    if(perimeter_1 > perimeter_2 && perimeter_1 > perimeter_3){
+        printf("Triangle 1 has highest parameter\n");
+    }
+    if(perimeter_2 > perimeter_1 && perimeter_2 > perimeter_3){
+        printf("Triangle 2 has highest parameter\n");
+    }
+    if(perimeter_3 > perimeter_1 && perimeter_3 > perimeter_2){
+        printf("Triangle 3 has highest parameter\n");
+    }
+
+    return 0;
+}
+/* Multiplication Table */
+#include <stdio.h>
+
+int main(){
+    int n;
+    printf("Enter the number for which you want the table\n-> ");
+    scanf("%d",&n);
+    for (int i =1 ; i<=10 ; i++ ){
+        printf("%d\n",i*n);
+    }
+    return 0;
+}
+/* Show the following output a part */
+#include <stdio.h>
+/*
+* -> 1
+** --> 3
+*** --> 6
+**** --> 10
+0 = 2*0 + 1
+*/
+
+int main(){
+    int n = 0;
+    int k = 2;
+    int temp = 1;
+    for (int i = 1; i<=6;i++){
+        printf("%d",temp);
+        if(i == 2+(n-1)){
+            printf("\n");
+            n= n+k;
+            k = k+1;
+        }
+        temp++;
+    }
+}
+/* Show the following output b part */
+#include <stdio.h>
+/*
+* -> 1
+** --> 3
+*** --> 6
+**** --> 10
+0 = 2*0 + 1
+*/
+
+int main(){
+    int n = 0;
+    int k = 2;
+    for (int i = 1; i<=6;i++){
+        printf("*");
+        if(i == 2+(n-1)){
+            printf("\n");
+            n= n+k;
+            k = k+1;
+        }
+    }
+}

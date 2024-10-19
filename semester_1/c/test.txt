@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+    char a[100];
+    int b;
+    printf("Enter the Name\n -> ");
+    scanf("%s",a);
+    printf("Enter the Age\n -> ");
+    scanf("%d",&b);
+    printf("Name: %s\n", a);
+    printf("Age: %d\n", b);
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main(){
+    int a,b;
+    printf("Enter number 1\n -> ");
+    scanf("%d",&a);
+    printf("Enter number 2\n -> ");
+    scanf("%d",&b);
+    printf("Your sum is: %d\n",a+b);
+    return 0;
+}
