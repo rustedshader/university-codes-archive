@@ -1,0 +1,5 @@
+total 8
+drwxr-xr-x  3 shubhang  staff  96 Aug 27 11:54 direct1
+drwxr-xr-x  3 shubhang  staff  96 Aug 27 11:54 direct2
+-rw-r--r--  1 shubhang  staff  44 Aug 28 08:26 file.txt
+-rw-r--r--  1 shubhang  staff   0 Aug 28 09:35 folder_list.txt

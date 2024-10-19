@@ -1,0 +1,40 @@
+List of Commands :-
+
+1) ls : It displays list of files/directories.
+Options: ls -l : list the files/directories in the long format.
+2) dir: It displays list of files/directories
+3) mkdir: Used to create new directories
+Options: mkdir -p: No error given if directory already exists
+4) rmdir: Used to remove an empty directory
+5) cp: Used to copy files
+Options: cp -R used to copy the directories
+	 cp -i asks for the prompt of Y/N before copying the files 
+6) mv: Used to move files
+Options: mv -i asks for the prompt of Y/N before moving the files
+7) date: display or set date and time
+Options: date -f uses format string to show date and time
+8) pwd: print the current path of the current working directory aka print working directory
+9) touch: create a empty file
+10) cd: used to get into a directory given its path
+11) head: displays the first line of a file
+Options: head -n x used to show x number of files from the start  aka print working directory
+9) touch: create a empty file
+10) cd: used to get into a directory given its path
+11) head: displays the first line of a file
+Options: head -n x used to show x number of files from the start  aka print working directory
+9) touch: create a empty file
+10) cd: used to get into a directory given its path
+11) head: displays the first line of a file
+Options: head -n x used to show x number of files from the start 
+12) history: prints all the command executed by user after login or during that terminal session
+13) tail: displays the last line of a file
+Options: tail -n x used to show x number of files from the last of the file
+14) cut: used to cut out selected portions of a directory
+Options: cut -c used to cut out character positions
+15) chmod: Used to change file or directory permissions 
+16) rm: remove a file or directory
+17) time: time to execute a command 
+18) whoami: tells the current active user
+19) cat: concatinate the contents in the file
+20) echo: print the standard input 
+Options: echo -n: do not print trailing line character 

@@ -1,0 +1,1051 @@
+    1  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    2  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/shubhang/.zprofile
+    3  ls
+    4  ls
+    5  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+    6  sudo xcode-select --switch path/to/Xcode.app
+    7  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    8  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    9  brew
+   10  brew update
+   11  ls
+   12  vim ~/.zshrc
+   13  zsh
+   14  s
+   15  ls
+   16  ls -a
+   17  vim .zprofile
+   18  zsh
+   19  vim .zprofile
+   20  cat .zprofile
+   21  zsh
+   22  vim .zprofile
+   23  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+   24  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   25  echo $fpath
+   26  brew
+   27  man brew
+   28  vim .zshrc
+   29  cat .zprofile
+   30  /opt/homebrew/bin/brew
+   31  ls
+   32  vim .zprofile
+   33  vim .zshrc
+   34  rm -f ~/.zcompdump; compinit\n
+   35  chmod -R go-w "$(brew --prefix)/share"\n
+   36  vim .zshrc
+   37  brew --prefix
+   38  brew
+   39  vim .zshrc
+   40  brew
+   41  zsh
+   42  brew
+   43  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   44  zsh
+   45  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/shubhang/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+   46  zsh
+   47  brew
+   48  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/shubhang/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+   49  ls
+   50  cat .zshrc
+   51  zsh
+   52  brew install --cask wget
+   53  brew install --cask rectangle
+   54  ls
+   55  brew install --cask
+   56  ls
+   57  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+   58  ZSH= sh install.sh
+   59  rm -r .oh-my-zsh
+   60  ZSH= sh install.sh
+   61  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n\n
+   62  ks
+   63  zsh
+   64  ls
+   65  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   66  s
+   67  ls
+   68  zsh
+   69  brew install Downloads
+   70  brew info zsh-completions
+   71  echo $FPATH
+   72  vim .zshrc
+   73  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"\n
+   74  rm -f ~/.zcompdump; compinit \n
+   75  chmod -R go-w "$(brew --prefix)/share"\n
+   76  zsh
+   77  ls
+   78  vim .zshrc
+   79  zsh
+   80  ls
+   81  brew install --cask zed postman 
+   82  ls
+   83  brew install yt-dlp curl wget ffmpeg mactop fastfetch 
+   84  echo 'export PATH="/opt/homebrew/opt/curl/bin:$PATH"' >> ~/.zshrc
+   85  curl
+   86  ls
+   87  mactop
+   88  sudo mactop
+   89  brew install python3 npm
+   90  brew install clang 
+   91  fastfetch
+   92  zsh
+   93  fastfetch
+   94  vim
+   95  ls
+   96  cd Documents/
+   97  ls
+   98  cd ..
+   99  du -sh *
+  100  ls
+  101  cd Public
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd Pictures
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd Downloads
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd ls
+  114  ls
+  115  mactop
+  116  sudo mactop
+  117  ls
+  118  cd Documents
+  119  ls
+  120  cd ..
+  121  ls
+  122  zed
+  123  ls
+  124  cd Movies
+  125  ls
+  126  cd ..
+  127  ls
+  128  cd Documents
+  129  ls
+  130  cd ..
+  131  ls
+  132  cd Desktop
+  133  ls
+  134  cd ..
+  135  ls
+  136  npx
+  137  ls
+  138  npm
+  139  ls
+  140  node
+  141  ls
+  142  lc
+  143  ls
+  144  fastfetch
+  145  ls
+  146  brew install --cask tailscale
+  147  ls
+  148  cd Documents
+  149  ls
+  150  cd ..
+  151  ls
+  152  cd Desl
+  153  cd Desktop
+  154  ls
+  155  cd ..
+  156  ls
+  157  cd Movies
+  158  ls
+  159  cd ..
+  160  ls
+  161  brew install --cask firefox
+  162  brew uninstall --cask firefox 
+  163  brew install --cask librewolf
+  164  brew reinstall librewolf --no-quarantine\n
+  165  ssh shubhang@100.110.26.80
+  166  ls
+  167  cd /Volumes/export/Private/stash
+  168  ls
+  169  mpv 2020-01-20\ Evelyn\ Claire\ Seth\ Gamble\ Ricky\ Johnson\ -\ Participant\ Observation\ Part\ 4\ \[Babes\].mp4
+  170  brew install --cask iina
+  171  iina 2020-01-20\ Evelyn\ Claire\ Seth\ Gamble\ Ricky\ Johnson\ -\ Participant\ Observation\ Part\ 4\ \[Babes\].mp4
+  172  iina 2018-11-22\ -\ Thanksgiving\ Dinner\ Sluts\ \[Sneaky\ Sex\].mp4
+  173  ls
+  174  sudo mactop
+  175  ls
+  176  brew list
+  177  ls
+  178  cd Downloads
+  179  ls
+  180  cd ..
+  181  ls
+  182  fastfetch
+  183  sudo mactop
+  184  fastfetch
+  185  ls
+  186  fastfetch
+  187  ls
+  188  git clone https://gitlab.com/rustedshader1/cp.git
+  189  cd cp
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd cp
+  194  ls
+  195  cd ..
+  196  ls
+  197  cd cp
+  198  ls
+  199  cd ..
+  200  ls
+  201  cd Downloads
+  202  ls
+  203  cd dev
+  204  ls
+  205  cd ..
+  206  ls
+  207  mv dev ~/
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd dev
+  212  ls
+  213  cd algorithms
+  214  ls
+  215  brew install gcc
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd ..
+  220  ls
+  221  cd Downloads
+  222  ls
+  223  mv GWA-xPnXAAArNcJ.png wallpaper.png
+  224  mv wallpaper.png ~/dev
+  225  ls
+  226  cd ..
+  227  ls
+  228  cd dev
+  229  ls
+  230  cd ..
+  231  ls
+  232  cd cp
+  233  ls
+  234  cd cp
+  235  ls
+  236  cd codeforces
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd codeforces
+  241  ls
+  242  cd B
+  243  lss
+  244  ls
+  245  l
+  246  ls
+  247  cd ~/dev/
+  248  ls
+  249  cd classroom
+  250  ls
+  251  cd c
+  252  ls
+  253  cd src
+  254  ls
+  255  zed parameter_and_area_rectangle.c
+  256  ls
+  257  cdlls
+  258  ./parameter_and_area_rectangle
+  259  ls
+  260  ./parameter_and_area_rectangle
+  261  make parameter_and_area_rectangle.c
+  262  rm parameter_and_area_rectangle
+  263  make parameter_and_area_rectangle.c
+  264  make parameter_and_area_rectangle
+  265  ./parameter_and_area_rectangle
+  266  ls
+  267  cd ..
+  268  ls
+  269  cd lls
+  270  ls
+  271  cd ..
+  272  ls
+  273  cd ..
+  274  lls
+  275  ls
+  276  cd algorithms
+  277  cd ..
+  278  ls
+  279  cd ..
+  280  ls
+  281  cd dev
+  282  ls
+  283  cd ..
+  284  ls
+  285  cd cp
+  286  ls
+  287  cd codeforces
+  288  ls
+  289  cd B
+  290  ls
+  291  cd ~/dev/classroom
+  292  ls
+  293  cd c
+  294  ls
+  295  cd src
+  296  ls
+  297  find . -type f -executable -print
+  298  find . -perm +0111 -type f\n
+  299  find . -maxdepth 1 -perm +0111 -type f\n
+  300  mv $(find . -maxdepth 1 -perm +0111 -type f) ./bin\n
+  301  ls
+  302  cd bin
+  303  ls
+  304  rm -rf *
+  305  ls
+  306  cd ..
+  307  ls
+  308  cd exercises
+  309  ls
+  310  rm -rf 3 4
+  311  cd ..
+  312  ls
+  313  cd experiment_4
+  314  ls
+  315  rm -rf 1 4
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd experiment_4
+  320  ls
+  321  cat 1.c
+  322  zed 1.c
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd ..
+  327  ls
+  328  cd ..
+  329  ls
+  330  cd ..
+  331  ls
+  332  mkdir projects
+  333  cd projects
+  334  ls
+  335  npx shadcn@latest intit
+  336  npx shadcn@latest init
+  337  ls
+  338  cd ifplanner
+  339  ls
+  340  npm run dev
+  341  ls
+  342  zed .
+  343  npx shadcn@latest add scroll-area\n
+  344  npx shadcn@latest add separator\n
+  345  ls
+  346  cd 1391
+  347  ls
+  348  cd ..
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd B
+  353  ls
+  354  cd 200
+  355  ls
+  356  cat main.py
+  357  ls
+  358  cd ..
+  359  ls
+  360  cd ..
+  361  ls
+  362  cd ..
+  363  ls
+  364  cd learning
+  365  l
+  366  cd algorithms
+  367  ls
+  368  cd sum_of_array
+  369  ls
+  370  cat main.py
+  371  ls
+  372  vim main.py
+  373  ls
+  374  cd ..
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd ..
+  379  ls
+  380  cd codeforces
+  381  ls
+  382  cd B
+  383  ls
+  384  cd 1391
+  385  ls
+  386  cd ..
+  387  ls
+  388  cd 200
+  389  ls
+  390  cat main.py
+  391  ls
+  392  vim main.py
+  393  npx shadcn@latest add form\n
+  394  npx shadcn@latest add input\n
+  395  npm run dev
+  396  npx shadcn@latest add select\n
+  397  npm run dev
+  398  brew install php
+  399  php -S 127.0.0.1
+  400  php -S 127.0.0.1:30001
+  401  php -S 127.0.0.1:3001
+  402  php -S localhost:3001
+  403  zed .
+  404  php -S localhost:3001
+  405  ls
+  406  cd public
+  407  \tls
+  408  php -S localhost:3001
+  409  brew install firefox
+  410  ls
+  411  brew install --cask firefox
+  412  ls
+  413  brew uninstall --cask firefox
+  414  brew cleanup
+  415  ls
+  416  cd ~/Downloads
+  417  ls
+  418  zed SimBrief_APIv1/demo.php
+  419  zed SimBrief_APIv1/
+  420  ping codeforces.com
+  421  curl codeforces.com
+  422  ls
+  423  ping codeforces.com
+  424  ls
+  425  cd ..
+  426  ls
+  427  cd ..
+  428  l
+  429  mkdir C
+  430  ls
+  431  cd C
+  432  ls
+  433  mkdir 1975
+  434  cd 1975
+  435  zed main.py
+  436  python3 main.py
+  437  ls
+  438  python3 main.py
+  439  5
+  440  1 2 3 4 5
+  441  python3 main.py
+  442  cd ~/cp/codeforces/C/1975
+  443  ls
+  444  python3 main.py
+  445  python3 main main.py `
+  446  python3 mian`
+  447  python3 main.py
+  448  s
+  449  ls
+  450  cd ~/dev/classroom/c
+  451  ls
+  452  cd src
+  453  ls
+  454  zed even_or_not.c
+  455  zed if_else.c
+  456  make if_else.c
+  457  make if_else
+  458  ./if_else
+  459  make if_else
+  460  ./if_else
+  461  make if_else
+  462  ./if_else
+  463  zed nested_if_else.c
+  464  zed main.py
+  465  make nested_if_else
+  466  ./nested_if_else
+  467  make nested_if_else
+  468  ./nested_if_else
+  469  cd ..
+  470  ls
+  471  cd ..
+  472  ls
+  473  cd ..
+  474  ls
+  475  cd algorithms
+  476  ls
+  477  mkdir binary_search
+  478  cd binary_search
+  479  ls
+  480  zed binary_search.py
+  481  python3 binary_search.py
+  482  make calc
+  483  ./calc
+  484  ls
+  485  rm calc
+  486  ls
+  487  make calc
+  488  ./calc
+  489  zed calc.c
+  490  curl -F="calc.c" 0x0.st
+  491  curl -F="calc.c" https://0x0.st
+  492  curl -F"url=calc.c" http://0x0.st
+  493  curl -F"url=calc.c" https://0x0.st
+  494  curl -F'url=calc.c' http://0x0.st
+  495  zed switch_calc.c
+  496  man switch
+  497  brew install man
+  498  /usr/bin/man switch
+  499  make switch_calc
+  500  ./switch_calc
+  501  make switch_calc
+  502  ./switch_calc
+  503  make switch_calc
+  504  ./switch_calc poiuy
+  505  ./switch_calc 
+  506  ./switch_calc poiuy
+  507  make switch_calc
+  508  ./switch_calc poiuy
+  509  cd ~/Library
+  510  ls
+  511  mkdir Private
+  512  cd Private
+  513  ls
+  514  zed testing.txt
+  515  curl https://www.pornhub.org/view_video.php\?viewkey\=66a8d33ed539a >> save.html
+  516  zed save.html
+  517  yt-dlp "https:\/\/cv-h.phncdn.com\/hls\/videos\/202407\/30\/455841111\/1080P_4000K_455841111.mp4\/master.m3u8?ZjF3j2SzsRVPTib-Jdz3plGyrPuai5Lc2Avn9doucKRCuYT6QHJxxVdO2NLnf-ilZz55Y_J1snA9pzYkzeoQbYobUZw75vkO-8qUDpngkN8IJA7gNBOUIZZ0CZozCAs7oOZ3R3LNcj-IaxEx_hEIaYcwzy2OnN-rGNvF9By06A-S7ToqoAAMzDnrzEcovVgQsKI9i__emEI"
+  518  yt-dlp "https://cv-h.phncdn.com/hls/videos/202407/30/455841111/1080P_4000K_455841111.mp4/master.m3u8?ZjF3j2SzsRVPTib-Jdz3plGyrPuai5Lc2Avn9doucKRCuYT6QHJxxVdO2NLnf-ilZz55Y_J1snA9pzYkzeoQbYobUZw75vkO-8qUDpngkN8IJA7gNBOUIZZ0CZozCAs7oOZ3R3LNcj-IaxEx_hEIaYcwzy2OnN-rGNvF9By06A-S7ToqoAAMzDnrzEcovVgQsKI9i__emEI"
+  519  ls
+  520  iina master\ \[master\].mp4
+  521  yt-dlp "https://www.pornhub.org/view_video.php\?viewkey\=66a8d33ed539a"
+  522  zed p.py
+  523  ls
+  524  mkdir phub_downloader
+  525  cd phub_downloader
+  526  ls
+  527  python3 -m venv .venv
+  528  source .venv/bin/activate
+  529  ls
+  530  touch pyright.json
+  531  zed .
+  532  pip install requests
+  533  pip install beautifulsoup4
+  534  zed ../save.html
+  535  python main.py
+  536  curl "https://www.pornhub.org/view_video.php\?viewkey\=66a8d33ed539a"
+  537  curl https://www.pornhub.org/view_video.php\?viewkey\=66a8d33ed539a
+  538  python main.py
+  539  curl "https://www.pornhub.org/view_video.php\?viewkey\=66a8d33ed539a"
+  540  curl https://www.pornhub.org/view_video.php\?viewkey\=66a8d33ed539a
+  541  curl https://www.pornhub.org/view_video.php?viewkey=66a8d33ed539a
+  542  curl https://www.pornhub.org/view_video.php\?viewkey\=66a8d33ed539a
+  543  python main.py
+  544  fF
+  545  fzf
+  546  brew install fzf
+  547  python main.py
+  548  fzf
+  549  python main.py
+  550  ls
+  551  python main.py
+  552  yt-dlp "https://ev-h.phncdn.com/hls/videos/202405/10/452285021/1080P_4000K_452285021.mp4/master.m3u8\?validfrom\=1725271075\&validto\=1725278275\&ipa\=223.188.231.59\&hdl\=-1\&hash\=pCz8xXJee5r3NFA%2BDPA845MthJk%3D"
+  553  wget "https://ev-h.phncdn.com/hls/videos/202405/10/452285021/1080P_4000K_452285021.mp4/master.m3u8\?validfrom\=1725271075\&validto\=1725278275\&ipa\=223.188.231.59\&hdl\=-1\&hash\=pCz8xXJee5r3NFA%2BDPA845MthJk%3D"
+  554  python main.py
+  555  wget "https:\/\/hv-h.phncdn.com\/hls\/videos\/202405\/10\/452285021\/1080P_4000K_452285021.mp4\/master.m3u8\?h\=VF6x3075Dogx5hjyTfcC9UmOMAo%3D\&e\=1725278328\&f\=1"
+  556  wget "https://hv-h.phncdn.com\/hls\/videos\/202405\/10\/452285021\/1080P_4000K_452285021.mp4\/master.m3u8\?h\=VF6x3075Dogx5hjyTfcC9UmOMAo%3D\&e\=1725278328\&f\=1"
+  557  wget "https://hv-h.phncdn.com/hls/videos/202405/10/452285021/1080P_4000K_452285021.mp4/master.m3u8?h=VF6x3075Dogx5hjyTfcC9UmOMAo%3D&e=1725278328&f=1"
+  558  ls
+  559  yt-dlp "https://hv-h.phncdn.com/hls/videos/202405/10/452285021/1080P_4000K_452285021.mp4/master.m3u8?h=VF6x3075Dogx5hjyTfcC9UmOMAo%3D&e=1725278328&f=1"
+  560  iina master\ \[master\].mp4
+  561  python main.py
+  562  cat /Volumes/export/Private/pervija_downloader/main.py
+  563  pip install yt-dlp
+  564  cat /Volumes/export/Private/pervija_downloader/requirments.txt
+  565  pip install yt-dlp==2024.5.27
+  566  cat /Volumes/export/Private/pervija_downloader/main.py
+  567  python main.py
+  568  iina test.mp4
+  569  ls
+  570  cat main.py
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd ..
+  575  ls
+  576  cd Private
+  577  ls
+  578  cd phub_downloader
+  579  ls
+  580  cat pyrightconfig.json
+  581  cat ma
+  582  cat main.py
+  583  ls
+  584  cd. .
+  585  cd ..
+  586  ls
+  587  cd kata-machine
+  588  ls
+  589  cd ..
+  590  ls
+  591  cd binary_search
+  592  ls
+  593  cat binary_search.py 
+  594  ls
+  595  cat main.py
+  596  zed main.py
+  597  zed .
+  598  zed main.py
+  599  sudo mactop
+  600  python3 main.py
+  601  ls
+  602  cd ..
+  603  ls
+  604  mkdir binary_to_decimal
+  605  cd binary_
+  606  cd binary_to_decimal
+  607  ls
+  608  zed binary_to_decimal.js
+  609  node binary_to_decimal.js
+  610  npm binary_to_decimal.js
+  611  node binary_to_decimal.js
+  612  node binary_to_decimal
+  613  node binary_to_decimal.js
+  614  ls
+  615  node binary_to_decimal.js
+  616  time node binary_to_decimal.js
+  617  node binary_to_decimal.js
+  618  ls
+  619  vim binary_to_decimal.js
+  620  ls
+  621  cd ..
+  622  ls
+  623  cd ..
+  624  ;s
+  625  ls
+  626  mkdir courses
+  627  cd courses
+  628  git clone https://github.com/getify/workshop-periodic-table.git\n  
+  629  cd workshop-periodic-table
+  630  ;s
+  631  ls
+  632  ls -a
+  633  cd .git/
+  634  tree
+  635  brew install tree
+  636  tree
+  637  cd ..
+  638  ls
+  639  tree
+  640  ls -a
+  641  l
+  642  cat README.md
+  643  git clone https://github.com/getify/workshop-periodic-table.git
+  644  ls
+  645  cd workshop-periodic-table
+  646  ls
+  647  cd ..
+  648  rm -rf workshop-periodic-table
+  649  ls
+  650  git branch
+  651  l
+  652  cd ..
+  653  l
+  654  scd workshop-periodic-table
+  655  cd workshop-periodic-table
+  656  git branch
+  657  git branch -a
+  658  git pull --all\n
+  659  ls
+  660  git branch -a
+  661  git checkout start-here
+  662  ls
+  663  npx run dev
+  664  npm run dev
+  665  npm run
+  666  ls
+  667  cd js
+  668  ls
+  669  cd ..
+  670  ls
+  671  npm run-script
+  672  ls
+  673  ls -a
+  674  cd js
+  675  npm run dev
+  676  cd ..
+  677  ls
+  678  npm start
+  679  npx run
+  680  node 
+  681  node run
+  682  ls
+  683  npm run
+  684  cd js
+  685  ls
+  686  node app.js
+  687  cd ..
+  688  ls
+  689  node js/app.js
+  690  node js/speller.js
+  691  ls
+  692  cat periodic-table.json
+  693  ls
+  694  node .
+  695  node periodic-table.json
+  696  ls
+  697  python3 -m http.server 80
+  698  python3 -m web.server 80
+  699  python3 -m http.server 80
+  700  zed .
+  701  diff check
+  702  man diff
+  703  git diff
+  704  ls
+  705  cd ..
+  706  ls
+  707  cd workshop-periodic-table
+  708  ls
+  709  brew search --cask xournal++
+  710  brew install --cask xournal++
+  711  brew uninstall --cask xournal++
+  712  ls
+  713  vim index.html
+  714  ls
+  715  cat LICENSE.txt
+  716  ls
+  717  diskutil
+  718  diskutil info
+  719  diskutil list
+  720  diskutil info /dev/disk3
+  721  diskutil info /dev/disk3s1s1
+  722  ls
+  723  vim
+  724  ls
+  725  cd ~/dev
+  726  ls
+  727  cd classroom
+  728  ls
+  729  cd c
+  730  \tls
+  731  cd src
+  732  ls
+  733  cd ex
+  734  cd experiment_4
+  735  ls
+  736  cat 1.c
+  737  ls
+  738  cat 4.c
+  739  ls
+  740  cd. .
+  741  l
+  742  ls
+  743  cat 1.c
+  744  cat 1.c | pbcopy
+  745  ls
+  746  cd ..
+  747  ls
+  748  ./calc
+  749  ls
+  750  ./switch_calc
+  751  ls
+  752  l
+  753  ls
+  754  cd ..
+  755  ls
+  756  cd ..
+  757  ls
+  758  cd ..
+  759  ls
+  760  cd classroom
+  761  ls
+  762  cd linux
+  763  ls
+  764  cat file.txt
+  765  ls
+  766  cd ..
+  767  ls
+  768  cd ..
+  769  ls
+  770  cd courses
+  771  ls
+  772  cd ..
+  773  ls
+  774  cd classroom
+  775  ls
+  776  cd c
+  777  ls
+  778  cd ..
+  779  ls
+  780  du -sh .
+  781  ls
+  782  git clone https://gitlab.com/rustedshader1/classroom.git
+  783  cd classroom
+  784  ls
+  785  cp ../c ../linux ./
+  786  cp -r ../c ../linux ./
+  787  ls
+  788  cd ..
+  789  ls
+  790  cd classroom
+  791  git commit -am "First Commit"
+  792  git add .
+  793  git commit -am "First Commit"
+  794  ls
+  795  git push
+  796  ls
+  797  vim .gitignore
+  798  ls
+  799  git add .
+  800  ls
+  801  git commit -am "Added gitignore"
+  802  git push
+  803  ls
+  804  find .DS_Store -type f \n
+  805  find . 'DS_Store' -type f \n
+  806  find . -name ".DS_Store" -delete
+  807  ls
+  808  cd c
+  809  ls
+  810  cd ..
+  811  ls
+  812  git add .
+  813  git commit -m "cleanup"
+  814  git push
+  815  ls
+  816  cd ..
+  817  ls
+  818  cd ..
+  819  ls
+  820  rm -rf classroom
+  821  git clone https://gitlab.com/rustedshader1/classroom.git
+  822  ls
+  823  cd classroom
+  824  ls
+  825  cd c
+  826  ls
+  827  cd src
+  828  ls
+  829  cd ..
+  830  ls
+  831  cd ..
+  832  ls
+  833  cd ..
+  834  ls
+  835  cd courses
+  836  ls
+  837  cd ..
+  838  ls
+  839  cd algorithms
+  840  ls
+  841  cd ..
+  842  ls
+  843  cd courses
+  844  ls
+  845  cd ..
+  846  ls
+  847  cd projects
+  848  ls
+  849  cd ..
+  850  ls
+  851  python3 main.py
+  852  ls
+  853  cd ..
+  854  ls
+  855  cd ..
+  856  ls
+  857  cd ..
+  858  ls
+  859  git commit -am "September 2"
+  860  git add .
+  861  git commit -am "September 2"
+  862  git push
+  863  ls
+  864  brew info runjs
+  865  brew install --cask runjs
+  866  lsl
+  867  ls
+  868  cd codeforces
+  869  ls
+  870  cd ..
+  871  ls
+  872  cd USACO
+  873  ls
+  874  cd bucket_brigade
+  875  ls
+  876  cat main.py
+  877  cd ..
+  878  ls
+  879  cd word_processor
+  880  ls
+  881  cat main.py
+  882  la
+  883  ls
+  884  cd ..
+  885  ls
+  886  cd le
+  887  cd learning
+  888  l
+  889  sl
+  890  ls
+  891  cd algorithms
+  892  ls
+  893  cd sum_of_array
+  894  ls
+  895  cat main.py
+  896  cd ..
+  897  ls
+  898  cd ..
+  899  ls
+  900  cd .
+  901  cd ..
+  902  ls
+  903  cd neetcode
+  904  ls
+  905  cd ..
+  906  ls
+  907  cd playground
+  908  l
+  909  ls
+  910  cd ..
+  911  ls
+  912  cd le
+  913  cd leetcode
+  914  ls
+  915  cd ..
+  916  ls
+  917  cd ..
+  918  ls
+  919  cd dev
+  920  ls
+  921  cd classroom
+  922  ls
+  923  git diff
+  924  ls
+  925  cd ..
+  926  ls
+  927  cd classroom
+  928  ls
+  929  vim README.md
+  930  ls
+  931  git commit -am "September 2"
+  932  git commit -am "updated README.md"
+  933  git commit --amend -am "updated README.md"
+  934  git push
+  935  ls
+  936  cd ..
+  937  ls
+  938  cd courses
+  939  ls
+  940  mkdir getting-started-javascript-v2
+  941  ls
+  942  cd getting-started-javascript-v2
+  943  ls
+  944  mv ~/Downloads/exercises ./
+  945  ls
+  946  cd exercises
+  947  ls
+  948  cd primer
+  949  ls
+  950  vim ex.js
+  951  vim ~/.vimrc
+  952  ls
+  953  vim ex.
+  954  vim ex.js
+  955  node ex.
+  956  node ex.js
+  957  vim ex.js
+  958  node ex.js
+  959  vim ex.js
+  960  node ex.js
+  961  ls
+  962  vim ex.fixed.js
+  963  vim ex.js
+  964  node ex.js
+  965  vim ex.js
+  966  node ex.js
+  967  ls
+  968  vim ex.
+  969  vim ex.js
+  970  zed ex.js
+  971  ls
+  972  vim ex.
+  973  vim ex.js
+  974  ls
+  975  cd ..
+  976  ls
+  977  cd ..
+  978  ls
+  979  cd  projects
+  980  ls
+  981  cd ..
+  982  lls
+  983  ls
+  984  cd courses
+  985  ls
+  986  cd ..
+  987  l
+  988  sls
+  989  find . -name '.DS_Store'
+  990  cd //
+  991  cd
+  992  ls
+  993  cd dev
+  994  ls
+  995  cd projects
+  996  ls
+  997  cd ..
+  998  ls
+  999  cd projects
+ 1000  ls
+ 1001  brew install sdl2
+ 1002  ls
+ 1003  cd graph_engine
+ 1004  ls
+ 1005  ./graph_engine 
+ 1006  rm graph_engine
+ 1007  ls
+ 1008  cd ~/dev/classroom/c
+ 1009  ls
+ 1010  cd src
+ 1011  ;s
+ 1012  ls
+ 1013  zed goto.c
+ 1014  make goto
+ 1015  ./goto
+ 1016  make goto
+ 1017  ./goto
+ 1018  make goto
+ 1019  ./goto
+ 1020  clang -o graph_engine -lSDL2
+ 1021  zsh
+ 1022  brew install sdl
+ 1023  zsh
+ 1024  brew install sdl2
+ 1025  ls
+ 1026  cd ..
+ 1027  ls
+ 1028  cd .
+ 1029  cd ..
+ 1030  ls
+ 1031  cd linux
+ 1032  ls
+ 1033  ls -l
+ 1034  ls -la
+ 1035  lls
+ 1036  ls -l | cat > file.txt
+ 1037  ls
+ 1038  cat file.txt
+ 1039  ls -l | cat > file.txt
+ 1040  cat file.txt
+ 1041* sudo mactop
+ 1042* ls
+ 1043* htop
+ 1044* top
+ 1045* man top
+ 1046  less file.txt
+ 1047  less folder_list.txt
+ 1048  more file.txt
+ 1049  man more
+ 1050  vi
+ 1051  history

@@ -1,0 +1,3 @@
+hi
+hello
+this is vim file 1 
