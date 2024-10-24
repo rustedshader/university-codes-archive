@@ -15,7 +15,7 @@ read var2
 case "$k" in 
 "1") echo "Your Answer is: $((  $var1 + $var2 ))";;
 "2") echo "Your Answer is: $((  $var1 - $var2 ))";;
-"3") echo "Your Answer is: $((  $var1 / $var2 ))";;
+"3") echo "Your Answer is: $(( cut -b -3 $(( $(( $(($var1 * 100)) / $var2 )) )) )) ";;
 "4") echo "Your Answer is: $((  $var1 * $var2 ))";; 
 *)
 echo "Invalid option selected"
