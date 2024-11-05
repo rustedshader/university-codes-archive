@@ -11,8 +11,14 @@ union hostel_details{
 
 int main(){
     union hostel_details x;
-    x.hostel_adress = "UPES Kandoli\n";
-    printf("My present adress is %s", x.hostel_adress);
+    x.hostel_adress = "UPES Kandoli";
+    printf("My present adress is: %s", x.hostel_adress);
+    x.zip = "248007";
+    printf(" %s", x.zip);
+    x.city = "Dehradun";
+    printf(" %s" , x.city);
+    x.state = "Uttrakhand";
+    printf(" %s\n",x.state);
     return 0;
 
 }
