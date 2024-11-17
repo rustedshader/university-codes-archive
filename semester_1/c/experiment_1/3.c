@@ -7,6 +7,6 @@ int main()
     printf("Enter your name\n: ");
     scanf("%s", a);
     printf("Enter your age\n: ");
-    scanf("%d", b);
+    scanf("%d", &b);
     return 0;
 }
