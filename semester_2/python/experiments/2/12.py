@@ -1,6 +1,5 @@
 x: list[int] = [10,20,56,78,89]
-print("Enter number to check")
-if int(input()) in x:
+if int(input("Enter the number to check: ")) in x:
     print(True)
 else:
     print(False)

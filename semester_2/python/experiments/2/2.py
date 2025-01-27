@@ -1,2 +1,2 @@
-print("Enter the radius\n")
-print(3.14 * int(input()) ** 2)
+import math 
+print(math.pi * int(input("Enter Radius: ")) ** 2)
