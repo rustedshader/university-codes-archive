@@ -1,9 +1,6 @@
-def factorial(n: int ):
-    if n<1:
-        return 1
-    if n<0:
-        return 0
-    return n * factorial(n-1)
-
-print(factorial(5))
-    
+fac: int = 1
+i: int  = int(input())
+while(i):
+    fac*=i
+    i-=1
+print(fac) 

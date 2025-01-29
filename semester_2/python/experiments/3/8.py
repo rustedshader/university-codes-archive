@@ -1,5 +1,13 @@
-print('Enter the CGPA')
-c = float(input())
+#TODO Correct this code
+
+total_marks: int = int(input("Enter the maximum marks of the subject: ")) * 5
+marks_obtained: int = 0
+for i in range(5):
+    marks_obtained += int(input(f"Enter the marks of Subject {i+1}: "))
+
+percentage: float = (marks_obtained / total_marks) * 100
+c: float = percentage/10
+
 if c >= 3.5 and c <=5.0:
     print("C+")
 elif c >= 5.1 and c <= 6.0:

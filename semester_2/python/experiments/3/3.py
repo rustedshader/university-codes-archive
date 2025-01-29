@@ -1,5 +1,4 @@
-print("Enter the two numbers a b")
-a,b = map(int,input().split(" "))
+a,b = map(int,input("Enter the two numbers a b: ").split(" "))
 if a > b:
     print(a)
 elif a<b:
