@@ -1,0 +1,5 @@
+Write a C program to create a singly linked list. The program should allow the user to insert nodes at the end and then display the linked list.
+Write a C program to create a singly linked list by continuously taking user input until the user enters -1, signaling the end of input. Then, display the linked list.
+Write a program to count the total number of nodes in a linked list.
+Write a C program to insert a node at the beginning of a singly linked list and display the list.
+Write a C program to delete a node from a singly linked list by its value and display the updated list.
