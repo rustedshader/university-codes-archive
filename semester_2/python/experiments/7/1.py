@@ -1,6 +1,5 @@
 from cmath import inf
 
-
 def max(l:list):
     max = -1
     for i in l:

@@ -1,0 +1,6 @@
+(1) Write a c program to print the Fibonacci series without using recursion and using recursion.
+(2) Write a c program to check the palindrome number.
+(3) Write a c program to print the factorial of a number.
+(4) Write a c program to check the Armstrong number.
+(5) Write a c program to print the multiplication of 2 matrices.
+(6) Write a c program to reverse a given number.

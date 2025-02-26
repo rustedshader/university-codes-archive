@@ -1,5 +1,3 @@
-#TODO Correct this code
-
 total_marks: int = int(input("Enter the maximum marks of the subject: ")) * 5
 marks_obtained: int = 0
 for i in range(5):

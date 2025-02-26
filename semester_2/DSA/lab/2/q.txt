@@ -1,0 +1,6 @@
+Write a program to create an array of size n and take user inputs to populate it.
+Reverse the elements of an array in place.
+Write a function to search for an element in an array and return its index, or -1 if not found.
+Count the number of times a particular element appears in the array.
+Find duplicate elements in an array.
+For an array of size n containing numbers from 1 to n+1, find the missing number.

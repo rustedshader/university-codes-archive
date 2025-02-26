@@ -1,15 +1,14 @@
-# TODO Complete this functions
-def keyword_args(input: None) -> str:
-    return '''
-Variable-length arguments refer to a feature that allows a function to accept a variable number of arguments in Python.
-'''
+def keyword_args(first, middle, last) -> None:
+    print("Hello "+first+" "+ middle + " " + last)
 
-def default_args(input: None) -> str:
-    return '''
+def default_args(first='Shubhang',last='Sharma') -> None:
+    print(first,last)
 
-'''
+def variable_len_args(*args) -> None:
+    for num in args:
+        print(num)
 
-def variable_len_args(input: None) -> str:
-    return '''
-
-'''
+if __name__ == '__main__':
+    keyword_args("Prakash","Chand","Sharma")
+    default_args()
+    variable_len_args([1,2,3,4,5,6])

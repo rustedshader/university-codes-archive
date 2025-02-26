@@ -1,5 +1,5 @@
 print('Enter the string')
-count = 0
+count:int = 0
 for i in input():
     if i.isupper():
         count+=1

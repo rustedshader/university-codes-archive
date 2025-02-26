@@ -1,0 +1,6 @@
+Find the second largest element in an array.
+Write a C program to find the sum of the main diagonal elements of a matrix.
+Write a C program to check the Identity matrix.
+C program to Insert an Element in the Sorted Array
+C Program to Cyclically Permute the Elements of an Array
+C Program to Find the Largest Sum of Contiguous Subarray of an Array
