@@ -1,13 +1,13 @@
 from cmath import inf
 
-def max(l:list):
+def max_(l:list) -> None:
     max = -1
     for i in l:
         if i > max:
             max = i
     print(max)
 
-def min(l:list):
+def min_(l:list) -> None:
     min = inf
     for i in l:
         if i < min:
@@ -16,5 +16,5 @@ def min(l:list):
 
 l = [1,2,3,4,5]
 
-max(l)
-min(l)
+max_(l)
+min_(l)

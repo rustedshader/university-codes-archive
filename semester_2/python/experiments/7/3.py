@@ -1,4 +1,4 @@
-def print_q(n: int):
+def print_q(n: int) -> int:
     print(n)
     if n==1:
         return 1

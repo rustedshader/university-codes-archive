@@ -1,4 +1,4 @@
-def fib(n:int ):
+def fib(n:int ) -> int:
     if n==1:
         return 1
     if n==0:

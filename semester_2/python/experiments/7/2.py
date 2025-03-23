@@ -1,4 +1,4 @@
-def sf(n: int):
+def sf(n: int) -> None:
     if n<0:
         return -1
     s = 0
