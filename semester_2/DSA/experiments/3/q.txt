@@ -1,0 +1,5 @@
+Write a recursive function to print numbers from 1 to N.
+Write a recursive function to find the maximum element in an array      
+Write a recursive function to calculate the sum of elements in an array.
+Write a recursive function to print all combinations of balanced parentheses for n pairs.
+Write a recursive function to find the nth triangular number, whereFormula: T(n) = n + T(n-1) with T(1) = 1.
