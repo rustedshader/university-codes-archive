@@ -1,6 +1,6 @@
-# College Code Backup
+# University Code Archive
 
-This repository contains my college programming assignments, projects, and coursework.
+This repository contains my university programming assignments, projects, and coursework.
 
 ## Structure
 
@@ -10,4 +10,4 @@ This repository contains my college programming assignments, projects, and cours
 
 ## Disclaimer
 
-This is a personal backup of academic work. 
+This is a personal backup of academic work.
