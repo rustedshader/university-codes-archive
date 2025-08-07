@@ -3,3 +3,4 @@ bin/
 .venv/
 node_modules/
 screenshots/
+__pycache__
