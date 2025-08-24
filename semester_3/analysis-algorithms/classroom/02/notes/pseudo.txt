@@ -1,0 +1,15 @@
+start = input()
+end = input()
+guessing_number = input()
+
+L = start
+R = end
+
+while L<=R:
+     M = (L+R)//2
+     if M < guessing_number:
+            L = M
+     if M > guessing_number:
+            R = M
+     else:
+          return M
