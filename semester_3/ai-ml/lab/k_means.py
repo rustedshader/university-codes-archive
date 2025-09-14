@@ -1,5 +1,7 @@
 import random
 
+import pandas as pd
+
 
 def eucledian_distance(x1, x2, y1, y2):
     return (((x2 - x1) ** 2) + ((y2 - y1) ** 2)) ** 0.5
@@ -20,17 +22,20 @@ def average_centroid(cluster_dict):
 
 
 def solve():
+    df = pd.read_excel("cluster_data.xlsx")
     # We have 3 cluster
     K = 3
 
+    random_data_points = df.values.tolist()
+
     # We then randomly generate the random points
-    random_data_points = [
-        (random.randint(1, 100), random.randint(1, 100)) for _ in range(100)
-    ]
+    # random_data_points = [
+    #    (random.randint(1, 100), random.randint(1, 100)) for _ in range(100)
+    # ]
 
     # Now we randomly generate centroid points
     random_centroid_points = [
-        (random.randint(1, 100), random.randint(1, 100)) for _ in range(K)
+        (random.randint(0, 50), random.randint(0, 50)) for _ in range(K)
     ]
 
     cluster_dict = {}
